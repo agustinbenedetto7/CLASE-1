@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+
+}
+/* TODO ESTE CONTENIDO LO REALICE MIRANDO UN VIDEO DE YOUTUBE MUY BIEN EXPLICADO
+ADEMAS DE VER LAS ANOTACIONES DE LA CLASE Y SACANDO IDEAS DE LA PAGINA
+W3SCHOOL QUE FUE DE MUCHA UTILIDAD PARA ENCONTRAR IDEAS DE ESTILOS DE LETRA */
+header {
+  height: 250px;
+  background-color:#2E8B57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo-demon{
+  width: 200px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center; 
+   }
+
+header div nav {
+ display: flex;
+ gap: 50px;
+}
+
+header div nav a {
+ font-size: 30px;
+ text-decoration: none;
+ color: white;
+ font-weight: 500;
+ text-shadow: 2px 2px 5px black;
+ transition: .3s ease;
+}
+
+header div nav a:hover {
+  transform: scale(1.1);
+}
+
+body {
+  height: 250px;
+  background-color: #8B0000;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner-principal {
+    width: 500px;           
+    border-radius: 15px;    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    margin-bottom: 50px;
+}
+
+#parrafo1 {
+  transition: .3s ease;
+  text-shadow: 2px 2px 5px black;
+  transition: .3s ease;
+}
+
+#parrafo1:hover {
+  transform: scale(1.1);
+}
+
+.bloque-introduccion {
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    gap: 40px;              
+    margin: 40px auto;      
+    width: 95%;
+}
+
+.personajes ul{
+    list-style: none;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    gap: 40px;              
+    margin: 40px auto;  
+    margin-left: 100px;    
+}
+
+.fotos-personajes {
+    width: 55%;
+}
+
+.pilares {
+    margin-left: 100;
+    margin-right:100 ;
+    text-shadow: 2px 2px 5px black;
+}
+
+.pilares ol {
+    list-style: none;
+}
+p {
+    font-family: system-ui; 
+    font-size: 1.4rem; 
+    font-weight: 400; 
+    line-height: 1.8;
+    color: white;
+

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-bottom: 3px solid #8e44ad;
+    text-align: center;
+}
+
+.Logo-demon {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e74c3c;
+    text-shadow: 0 0 8px #e74c3c;
+}
+
+#titulo-principal {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 10px #8e44ad;
+}
+
+h2 {
+    text-align: center;
+    color: #8e44ad;
+    margin: 20px 0;
+}
+
+.bloque-introduccion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-principal {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+#parrafo1 {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+strong {
+    color: #e74c3c;
+}
+
+/* DECLARACION DE USO DE IA */
+
+/* Para toda la generacion de codigo use GEMINI. la vengo usando desde que arranco la cursada y tiene una manera muy directa de generar codigo, no necesito mucha informacion para darme un resultado funcional. En mi caso yo no armo un solo Prompt para pedirle a la IA un resultado. 
+ 
+ Mi forma de trabajar con la IA en primer lugar es comentarle cosas principales, por ej: Para mi clase de informatica, estamos realizando tal tarea con tal consigna. Ahora necesito que con respecto a eso diseñes tal codigo (en este caso la hoja de estilos). Le pregunte directamente a la IA que informacion necesita para poder darme la respuesta que le pedi
+
+ La respuesta fue que necesitaba saber 4 cosas
+ 1- Ver el codigo index.html
+ 2- La tematica de la serie
+ 3- Que le especifique el contenido visual que quiero darle
+ 4- Que le diga si quiero elementos especiales
+
+ Mi respuesta fue concreta, le di el codigo completo del index.html y le dije a la IA que tenia total libertad para generar la hoja de estilos, desde tipografias, paleta de colores y elementos especiales. Todo esto solamente diciendole el nombre de la serie.
+
+ El resultado me parecio dentro de todo parecido a lo que yo pude realizar por mi cuenta con algunos cambios evidentes pero en esencia llegamos a un mismo resultado.
+
+ */
